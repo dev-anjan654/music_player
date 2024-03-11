@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <!--container for music player-->
+    <div class="container">
+    <div class="music-player-container">
+        <div class="thumbnail">
+            <img src="" alt="">
+        </div>
+        <div class="music-info">
+           <h2 class="music-title">Buzz</h2>
+           <p class="artist-name">Badsha</p> 
+        </div>
+        <audio src="" id="audio"></audio>
+        <div class="slider">
+           <input type="range" id="range-slider" value="0">
+           <p class="current-time"></p>
+           <p class="duration"></p> 
+        </div>
+        <div class="controller">
+            <i class="fa-solid fa-backward-step"></i>
+            <div class="play">
+               <i class="fa-solid fa-play"></i> 
+            </div>    
+            <i class="fa-solid fa-forward-step"></i>
+        </div>
+    </div>
+</div>
+<script src="script.js" type="module"></script>
+</body>
+</html>
